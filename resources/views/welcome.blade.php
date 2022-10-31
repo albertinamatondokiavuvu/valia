@@ -157,87 +157,87 @@
 <div class="container-xxl py-5">
     <div class="container px-lg-5">
         <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="position-relative d-inline text-primary ps-4">Our Projects</h6>
-            <h2 class="mt-2">Recently Launched Projects</h2>
+            <h6 class="position-relative d-inline text-primary ps-4">NOSSOS PROJECTOS</h6>
+            <h2 class="mt-2">Projectos Realizados Recentemente</h2>
         </div>
         <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
             <div class="col-12 text-center">
                 <ul class="list-inline mb-5" id="portfolio-flters">
-                    <li class="btn px-3 pe-4 active" data-filter="*">All</li>
-                    <li class="btn px-3 pe-4" data-filter=".first">Design</li>
-                    <li class="btn px-3 pe-4" data-filter=".second">Development</li>
+                    <li class="btn px-3 pe-4 active" data-filter="*">Tudo</li>
+                    <li class="btn px-3 pe-4" data-filter=".first">Avaliação</li>
+                    <li class="btn px-3 pe-4" data-filter=".second">Comunicação</li>
                 </ul>
             </div>
         </div>
         <div class="row g-4 portfolio-container">
             <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
                 <div class="position-relative rounded overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/Projectos/Project.png" alt="">
                     <div class="portfolio-overlay">
-                        <a class="btn btn-light" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                        <a class="btn btn-light" href="img/Projectos/Project.png" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                         <div class="mt-auto">
                             <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                            <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            <a class="h5 d-block text-white mt-1 mb-0" href="">Educacão</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.3s">
                 <div class="position-relative rounded overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/Projectos/Project.png" alt="">
                     <div class="portfolio-overlay">
-                        <a class="btn btn-light" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                        <a class="btn btn-light" href="img/Projectos/Project.png" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                         <div class="mt-auto">
                             <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                            <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            <a class="h5 d-block text-white mt-1 mb-0" href="">Educacão</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.6s">
                 <div class="position-relative rounded overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/Projectos/Project.png" alt="">
                     <div class="portfolio-overlay">
-                        <a class="btn btn-light" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                        <a class="btn btn-light" href="img/Projectos/Project.png" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                         <div class="mt-auto">
                             <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                            <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            <a class="h5 d-block text-white mt-1 mb-0" href="">Educacão</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
                 <div class="position-relative rounded overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/Projectos/Project.png" alt="">
                     <div class="portfolio-overlay">
-                        <a class="btn btn-light" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                        <a class="btn btn-light" href="img/Projectos/Project.png" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                         <div class="mt-auto">
                             <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                            <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            <a class="h5 d-block text-white mt-1 mb-0" href="">Educacão</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.3s">
                 <div class="position-relative rounded overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/Projectos/Project.png" alt="">
                     <div class="portfolio-overlay">
-                        <a class="btn btn-light" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                        <a class="btn btn-light" href="img/Projectos/Project.png" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                         <div class="mt-auto">
                             <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                            <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            <a class="h5 d-block text-white mt-1 mb-0" href="">Educacão</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.6s">
                 <div class="position-relative rounded overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/Projectos/Project.png" alt="">
                     <div class="portfolio-overlay">
-                        <a class="btn btn-light" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                        <a class="btn btn-light" href="img/Projectos/Project.png" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                         <div class="mt-auto">
-                            <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                            <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            <small class="text-white"><i class="fa fa-folder me-2"></i>VALIA</small>
+                            <a class="h5 d-block text-white mt-1 mb-0" href="">Educacão</a>
                         </div>
                     </div>
                 </div>
@@ -252,50 +252,19 @@
 <div class="container-xxl bg-primary testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5 px-lg-5">
         <div class="owl-carousel testimonial-carousel">
+            
             <div class="testimonial-item bg-transparent border rounded text-white p-4">
                 <i class="fa fa-quote-left fa-2x mb-3"></i>
-                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <p>Contamos consigo para uma avaliação que vai definir o seu futuro.</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/Testemunho/testemunho.png" style="width: 50px; height: 50px;">
                     <div class="ps-3">
-                        <h6 class="text-white mb-1">Client Name</h6>
-                        <small>Profession</small>
+                        <h6 class="text-white mb-1">Justino Valentim</h6>
+                        <small>Professor</small>
                     </div>
                 </div>
             </div>
-            <div class="testimonial-item bg-transparent border rounded text-white p-4">
-                <i class="fa fa-quote-left fa-2x mb-3"></i>
-                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
-                    <div class="ps-3">
-                        <h6 class="text-white mb-1">Client Name</h6>
-                        <small>Profession</small>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-item bg-transparent border rounded text-white p-4">
-                <i class="fa fa-quote-left fa-2x mb-3"></i>
-                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
-                    <div class="ps-3">
-                        <h6 class="text-white mb-1">Client Name</h6>
-                        <small>Profession</small>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-item bg-transparent border rounded text-white p-4">
-                <i class="fa fa-quote-left fa-2x mb-3"></i>
-                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
-                    <div class="ps-3">
-                        <h6 class="text-white mb-1">Client Name</h6>
-                        <small>Profession</small>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -306,8 +275,8 @@
 <div class="container-xxl py-5">
     <div class="container px-lg-5">
         <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="position-relative d-inline text-primary ps-4">Our Team</h6>
-            <h2 class="mt-2">Meet Our Team Members</h2>
+            <h6 class="position-relative d-inline text-primary ps-4">NOSSA EQUIPA</h6>
+            <h2 class="mt-2">Conheça os membros do nossa Equipa</h2>
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -319,7 +288,7 @@
                             <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                        <img class="img-fluid rounded w-100" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="img/Team/team.png" alt="">
                     </div>
                     <div class="px-4 py-3">
                         <h5 class="fw-bold m-0">Jhon Doe</h5>
@@ -336,7 +305,7 @@
                             <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                        <img class="img-fluid rounded w-100" src="img/team-2.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="img/Team/team.png" alt="">
                     </div>
                     <div class="px-4 py-3">
                         <h5 class="fw-bold m-0">Emma William</h5>
@@ -353,7 +322,7 @@
                             <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                        <img class="img-fluid rounded w-100" src="img/team-3.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="img/Team/team.png" alt="">
                     </div>
                     <div class="px-4 py-3">
                         <h5 class="fw-bold m-0">Noah Michael</h5>
