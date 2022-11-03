@@ -1,7 +1,7 @@
 @extends('layouts.site.header')
 @section('title', ' - pagina inicial')
 @section('content')
-@include('layouts.modal.site')
+    @include('layouts.modal.site')
 
 
     <!-- ======= Hero Section ======= -->
@@ -118,6 +118,7 @@
                     <p>Consulte um especialista Confiável Hoje</p>
                 </div>
                 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
@@ -223,18 +224,56 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                                <div class="member d-flex align-items-start">
-                                    <div class="member-info">
-                                        <h4>Valia.Formação</h4>
-                                        <span></span>
-                                        <p>
-                                            Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda ás
-                                            ... <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Ler mais</a>
+                            <div class="row">
+                                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="member d-flex align-items-start">
+                                        <div class="member-info">
+                                            <h4>Valia.Formação</h4>
+                                            <span></span>
+                                            <p>
+                                                Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
+                                                ás
+                                                ... <a href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">Ler mais</a>
 
-                                        </p>
+                                            </p>
 
 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="member d-flex align-items-start">
+                                        <div class="member-info">
+                                            <h4>Valia.Gest</h4>
+                                            <span></span>
+                                            <p>
+                                                Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
+                                                ás
+                                                ... <a href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">Ler mais</a>
+
+                                            </p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="member d-flex align-items-start">
+                                        <div class="member-info">
+                                            <h4>Valia.Consultoria</h4>
+                                            <span></span>
+                                            <p>
+                                                Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
+                                                ás
+                                                ... <a href="" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">Ler mais</a>
+
+                                            </p>
+
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
