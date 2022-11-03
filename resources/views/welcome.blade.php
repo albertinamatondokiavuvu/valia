@@ -76,7 +76,7 @@
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4 class="title"><a href="">Missão</a></h4>
                             <p class="description">Promover a qualidade e a equidade na avaliação, fornecimento
-                                testes padronizados...</p>
+                                testes padronizados... <a href="">Ler mais</a></p>
 
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                             <p class="description">Ser reconhecido como pioneira e líder no segmento de avaliações e
                                 fornecimento
                                 de testes padronizados...</p>
-                            <a href="">Ler mais...</a>
+                            <a href="">Ler mais</a>
                         </div>
                     </div>
 
@@ -138,7 +138,7 @@
                                             <h4> VALIA.Lic</h4>
                                             <span></span>
                                             <p>O VALIA.LIc é um serviço especializado em licenciamento ... <a
-                                                    href="">Ver mais</a></p>
+                                                    href="">Ler mais</a></p>
 
 
                                         </div>
@@ -151,7 +151,7 @@
                                         <div class="member-info">
                                             <h4>Valia.Estágios</h4>
                                             <span></span>
-                                            <p>Através de nossos parceiros a VALIA.AO oferece a... <a href="">Ver
+                                            <p>Através de nossos parceiros a VALIA.AO oferece a... <a href="">Ler
                                                     mais</a></p>
 
                                         </div>
@@ -164,7 +164,7 @@
                                             <h4>Valia.Max</h4>
                                             <span></span>
                                             <p>Realizar avaliações rigorosas baseadas em pesquisas e
-                                                ... <a href="">Ver mais</a>
+                                                ... <a href="">Ler mais</a>
 
 
                                             </p>
@@ -185,7 +185,7 @@
                                             <h4> VALIA.Impulso</h4>
                                             <span></span>
                                             <p>É um serviço de parceria com outras empresa, onde incrementamos o ... <a
-                                                    href="">Ver mais</a></p>
+                                                    href="">Ler mais</a></p>
 
                                         </div>
                                     </div>
@@ -198,7 +198,7 @@
                                             <h4>Valia.Recrutamento</h4>
                                             <span></span>
                                             <p>través do VALIA.Recrumanto e apoiamos as instituições no processo de ... <a
-                                                    href="">Ver mais</a></a></p>
+                                                    href="">Ler mais</a></a></p>
 
                                         </div>
                                     </div>
@@ -210,7 +210,7 @@
                                             <h4>Valia.Soluções</h4>
                                             <span></span>
                                             <p>Em através dos nos parceiros, e utilizando metodologias apoiadas por ... <a
-                                                    href="">Ver mais</a>
+                                                    href="">Ler mais</a>
 
                                             </p>
 
@@ -230,7 +230,7 @@
                                         <span></span>
                                         <p>
                                             Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda ás
-                                            ... <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver mais</a>
+                                            ... <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Ler mais</a>
 
                                         </p>
 
@@ -268,7 +268,7 @@
                                     <h4 class="title"><a style="color: white;" href="">Filosofia</a></h4>
                                     <p class="description" style="text-align: justify;">Nossa filosofia baseia-se no
                                         compromisso com a avaliação, o que inspira
-                                        a nossa natureza e missão de promover a qualidade e a equidade na educação.</p>
+                                        a nossa natureza e missão de promoLer a qualidade e a equidade na educação.</p>
 
                                 </div>
                             </div>
