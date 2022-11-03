@@ -224,7 +224,7 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
                         <div class="icon-box">
-                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                            <div class="icon"><img src="/img/Graduation Cap_100px.png" alt="" srcset=""></div>
                             <h4 class="title"><a style="color: white;" href="">Filosofia</a></h4>
                             <p class="description" style="text-align: justify;">Nossa filosofia baseia-se no compromisso com a avaliação, o que inspira
                                 a nossa natureza e missão de promover a qualidade e a equidade na educação.</p>
@@ -234,18 +234,17 @@
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
                         data-aos-delay="100">
                         <div class="icon-box">
-                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <div class="icon"><img src="/img/Hand With Pen_100px.png" alt="" srcset=""></div>
                             <h4 class="title"><a style="color: white;" href="">Estratégia</a></h4>
                             <p class="description" style="text-align: justify;">Alargar as oportunidades de crescimentos para alunos
                                 e para as empresas por meio de métodos de avaliação mais informados e objetivos.</p>
-
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
                         data-aos-delay="200">
                         <div class="icon-box">
-                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+                            <div class="icon"><img src="/img/Organization_100px.png" alt="" srcset=""></div>
                             <h4 class="title"><a style="color: white;" href="">Foco</a></h4>
                             <p class="description" style="text-align: justify;">Nosso foco está nos relacionamentos que construímos com organizações com ideias semelhantes e pioneiros
                                 em tecnologia educacional, aprofundando nossas capacidades técnicas.</p>
@@ -277,64 +276,50 @@
                                 <div class="content">
                                     <h3>Cursos Administrados pela <strong>Valia.ao</strong></h3>
                                 </div>
+                                <table class="table table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Curso</th>
+                                        <th scope="col">Resumo</th>
+                                        <th scope="col">Baixar</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Construção de Instrumentos de Avaliação (CIA)</td>
+                                        <td>O curso visa dotar os formandos de conhecimentos sobre aplicação de regras de construção de materiais de suporte à construção de testes,
+                                            dos instrumentos de avaliação de tipologia variada, adequada ao objeto e objetivo de avaliação.</td>
+                                        <td> <br> <a href="" style="text-align: right;"><img src="/img/PDF_40px.png" alt="" srcset=""></a></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td> Segurança , Higiene e Saúde Escolar (SHSE)</td>
+                                        <td>  O SHSE ou Simplesmente Segurança, Higiene Saúde na Escola é um curso que visa dotar
+                                            os Gestores, vigilantes, Auxiliares ou todos os interessados de conhecimentos de sobre
+                                            os princípios de desenvolvimento organizacional, visando o aumento da qualidade de vida na Escola através
+                                           da integração de métodos de limpeza e desinfecção de artigos escolares, móveis.</td>
+                                        <td><br> <a href="" style="text-align: right;"><img src="/img/PDF_40px.png" alt="" srcset=""></a></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Secretariado Escolar (SE)</td>
+                                        <td>A Secretaria Escolar é o setor responsável pela execução de todos os procedimentos relacionados à legislação e documentação escolar.
+                                            É uma área de suma importância para que a escola possa funcionar corretamente.</td>
+                                        <td><br> <a href="" style="text-align: right;"><img src="/img/PDF_40px.png" alt="" srcset=""></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">4</td>
+                                        <td>Gestão Pedagógica de Centros de Formação (GPCF)</td>
+                                        <td> O Curso de Gestão Pedagógica de centros de formação mostra quais são as formas corretas de planejar e
+                                            administrar a estrutura de um centro. Você aprenderá sobre quais os departamentos de centro, como funcionam, quais suas atribuições
+                                           e deveres, dos Directores, Cordenadores Pedagógicos e Formadores.</td>
+                                           <td> <br> <a href="" style="text-align: right;"><img src="/img/PDF_40px.png" alt="" srcset=""></a></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
 
-                                <div class="accordion-list">
-                                    <ul>
-                                        <li data-aos="fade-up" data-aos-delay="100">
-                                            <a data-bs-toggle="collapse" class="collapse"
-                                                data-bs-target="#accordion-list-1"><span>01</span> Construção de Instrumentos de Avaliação (CIA) <i class="bx bx-chevron-down icon-show"></i><i
-                                                    class="bx bx-chevron-up icon-close"></i></a>
-                                            <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                                                <p>
-                                                    O curso visa dotar os formandos de conhecimentos sobre aplicação de regras de construção de materiais de suporte à construção de testes,
-                                                     dos instrumentos de avaliação de tipologia variada, adequada ao objeto e objetivo de avaliação.
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                        <li data-aos="fade-up" data-aos-delay="200">
-                                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                                class="collapsed"><span>02</span> Segurança , Higiene e Saúde Escolar (SHSE) <i
-                                                    class="bx bx-chevron-down icon-show"></i><i
-                                                    class="bx bx-chevron-up icon-close"></i></a>
-                                            <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                                                <p>
-                                                    O SHSE ou Simplesmente Segurança, Higiene Saúde na Escola é um curso que visa dotar
-                                                     os Gestores, vigilantes, Auxiliares ou todos os interessados de conhecimentos de sobre
-                                                     os princípios de desenvolvimento organizacional, visando o aumento da qualidade de vida na Escola através
-                                                    da integração de métodos de limpeza e desinfecção de artigos escolares, móveis.
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                        <li data-aos="fade-up" data-aos-delay="300">
-                                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                                class="collapsed"><span>03</span> Secretariado Escolar (SE) <i
-                                                    class="bx bx-chevron-down icon-show"></i><i
-                                                    class="bx bx-chevron-up icon-close"></i></a>
-                                            <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                                                <p>
-                                                    A Secretaria Escolar é o setor responsável pela execução de todos os procedimentos relacionados à legislação e documentação escolar.
-                                                    É uma área de suma importância para que a escola possa funcionar corretamente.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li data-aos="fade-up" data-aos-delay="400">
-                                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                                class="collapsed"><span>04</span> Gestão Pedagógica de Centros de Formação (GPCF) <i
-                                                    class="bx bx-chevron-down icon-show"></i><i
-                                                    class="bx bx-chevron-up icon-close"></i></a>
-                                            <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
-                                                <p>
-                                                    O Curso de Gestão Pedagógica de centros de formação mostra quais são as formas corretas de planejar e
-                                                     administrar a estrutura de um centro. Você aprenderá sobre quais os departamentos de centro, como funcionam, quais suas atribuições
-                                                    e deveres, dos Directores, Cordenadores Pedagógicos e Formadores.
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </div>
 
                             </div>
 
