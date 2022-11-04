@@ -1,7 +1,7 @@
 @extends('layouts.site.header')
 @section('title', ' - pagina inicial')
 @section('content')
-    @include('layouts.modal.site')
+@include('layouts.modal.site')
 
 
     <!-- ======= Hero Section ======= -->
@@ -284,7 +284,6 @@
 
             </div>
         </section><!-- End Team Section -->
-
         <!-- ======= Cta Section ======= -->
         <div class="section-title">
             <br>
@@ -422,8 +421,6 @@
 
             </div>
         </section><!-- End Why Us Section -->
-
-
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
