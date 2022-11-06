@@ -311,14 +311,14 @@
                 <div class="row">
 
                     <div class="col-lg-5 align-items-stretch position-relative video-box"
-                        style='background-image: url("assets/img/why-us.jpg");' data-aos="fade-right">
+                        style='background-image: url("assets/img/course/teacherGiveChalk.jpg");' data-aos="fade-right">
                         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn mb-4"></a>
                     </div>
 
-                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch"
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch p-4"
                         data-aos="fade-left">
 
-                        <div class="content">
+                        <div class="content title_h3">
                             <h3>Cursos Administrados pela <strong>Valia.ao</strong></h3>
                         </div>
                         <table class="table table-striped">

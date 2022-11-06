@@ -609,6 +609,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .section-title h2 {
@@ -972,14 +973,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(8, 128, 232, 0.7);
+  border: 5px solid rgb(215 205 2);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .why-us .play-btn:hover::after {
-  border-left: 15px solid #0880e8;
+  border-left: 15px solid #d0c500;
   transform: scale(20);
 }
 
@@ -1089,9 +1090,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
-  padding: 120px 0;
+    background: linear-gradient(rgb(46 170 189 / 90%), rgb(45 169 189)), url(../img/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
 }
 
 .cta h3 {
@@ -1613,7 +1614,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #07174c;
+  background: #f6b024;
   color: #fff;
   float: left;
   width: 44px;
@@ -1717,7 +1718,7 @@ section {
   color: #07174c;
   transition: 0.4s;
   border-radius: 50px;
-  border: 2px solid #07174c;
+  border: 2px solid #f6b024;
   background: #fff;
 }
 
@@ -2461,4 +2462,8 @@ section {
 
 #footer .credits a {
   color: #f6b024;
+}
+
+.title_h3{
+  color: #07174c;
 }
