@@ -84,7 +84,7 @@
                         data-aos-delay="100">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-file"></i></div>
-                            <h4 class="title"><a href="">Vissão</a></h4>
+                            <h4 class="title"><a href="">Visão</a></h4>
                             <p class="description">Ser reconhecido como pioneira e líder no segmento de avaliações e
                                 fornecimento
                                 de testes padronizados...</p>
@@ -247,12 +247,6 @@
         </section><!-- End Team Section -->
 
         <!-- ======= Cta Section ======= -->
-        <div class="section-title">
-            <br>
-            <h2>Cursos valia.ao</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate.</p>
-        </div>
         <section id="cta" class="cta">
 
             <div class="container">
@@ -261,7 +255,7 @@
                 <div class="row" data-aos="zoom-in">
                     <div class="col-lg-12 text-center text-lg-center">
                         <div class="row">
-                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 px-4" data-aos="fade-up">
                                 <div class="icon-box">
                                     <div class="icon"><img src="/img/Graduation Cap_100px.png" alt=""
                                             srcset=""></div>
@@ -272,7 +266,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 px-4" data-aos="fade-up"
                                 data-aos-delay="100">
                                 <div class="icon-box">
                                     <div class="icon"><img src="/img/Hand With Pen_100px.png" alt=""
@@ -284,7 +278,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 px-4" data-aos="fade-up"
                                 data-aos-delay="200">
                                 <div class="icon-box">
                                     <div class="icon"><img src="/img/Organization_100px.png" alt=""
@@ -305,6 +299,12 @@
             </div>
         </section><!-- End Cta Section -->
         <!-- ======= Why Us Section ======= -->
+        <div class="section-title">
+            <br> <br>
+            <h2>Cursos valia.ao</h2>
+            <p>Confira a nossa lista de cursos.</p>
+            <br>
+        </div>
         <section id="why-us" class="why-us">
             <div class="container-fluid">
 
@@ -315,12 +315,8 @@
                         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn mb-4"></a>
                     </div>
 
-                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch p-4"
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch p-5"
                         data-aos="fade-left">
-
-                        <div class="content title_h3">
-                            <h3>Cursos Administrados pela <strong>Valia.ao</strong></h3>
-                        </div>
                         <table class="table table-striped">
                             <thead>
                                 <tr>
