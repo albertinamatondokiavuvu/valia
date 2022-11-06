@@ -391,7 +391,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Contact Us</h2>
+                    <h2>Contacta-nos</h2>
                 </div>
 
                 <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
@@ -400,20 +400,20 @@
                         <div class="info">
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <h4>Localização:</h4>
+                                <p>Av. 21 de Janeiro, nº 217 r/c,<br> Morro Bento, Luanda, de fronte a Multiperfil</p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <p>valia@example.com</p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <h4>Telefone:</h4>
+                                <p>+244 925 630 092 / +244 922 630 092</p>
                             </div>
 
                         </div>

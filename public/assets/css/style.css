@@ -1,5 +1,6 @@
 /**
 * Template Name: Anyar - v4.9.1
+Viste Como
 * Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -188,7 +189,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(5, 87, 158, 0.9);
+  background: rgb(7 23 76);
   top: 0;
 }
 
@@ -616,7 +617,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #054a85;
+  color: #07174c;
 }
 
 .section-title p {
@@ -1612,7 +1613,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #0880e8;
+  background: #07174c;
   color: #fff;
   float: left;
   width: 44px;
@@ -1713,15 +1714,15 @@ section {
 .contact .php-email-form button[type=submit] {
   border: 0;
   padding: 10px 32px;
-  color: #0880e8;
+  color: #07174c;
   transition: 0.4s;
   border-radius: 50px;
-  border: 2px solid #0880e8;
+  border: 2px solid #07174c;
   background: #fff;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0880e8;
+  background: #07174c;
   color: #fff;
 }
 
@@ -2292,7 +2293,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #05579e;
+  background: #07174c;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
