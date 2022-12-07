@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Admin\MediatecaController;
+use App\Http\Controllers\SiteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,11 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[SiteController::class,'index'])->name('site');
+//Updates
+Route::get('updates/list/{id}',[SiteController::class,'updatesList'])->name('updatesList');
+//Mediateca
+Route::get('mediate_valia',[MediatecaController::class,'index'])->name('mediateca');
 
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
