@@ -27,7 +27,8 @@
             </div>
         </div>
     </div>
-        <div class="col-sm-12">
+
+    <div class="col-sm-12">
             <div class="card">
                 <div class="card-header">
                     <div class="card-header-left">
@@ -56,6 +57,6 @@
                     </form>
                 </div>
             </div>
-        </div>
+    </div>
 @endsection
 
