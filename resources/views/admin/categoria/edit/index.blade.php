@@ -33,9 +33,7 @@
                     <div class="card-header-left">
                         <h5>Editar Gabarito</h5>
                         <br>
-
-    <small style="text-align: left; font-weight:bold;">Campos com <small style="color: red;">*</small> são campos obrigatórios</small>
-
+                        <small style="text-align: left; font-weight:bold;">Campos com <small style="color: red;">*</small> são campos obrigatórios</small>
                     </div>
                     <div class="card-header-right">
                         <ul class="list-unstyled card-option">
@@ -59,6 +57,5 @@
                 </div>
             </div>
         </div>
-
 @endsection
 
