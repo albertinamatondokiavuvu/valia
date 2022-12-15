@@ -111,21 +111,24 @@
                         </div>
                         <div class="tab-pane container fade" id="file">
                             <div class="col-8 justify-content-center">
+<?php if(Auth::check()): ?>
 
 
-                                <form>
+
+                                <form action="<?php echo e(route('storemediateca')); ?>" class="row" method="POST" enctype="multipart/form-data">
+                                    <?php echo csrf_field(); ?>
                                     <div class="form-group col-md-4">
                                         <label for="ficheiro" class="form-label">ficheiro <small
                                                 style="color: red;">*</small></label>
                                         <input value="<?php echo e(old('ficheiro')); ?>"
-                                            value="<?php echo e(isset($users->ficheiro) ? $users->ficheiro : ''); ?>" type="file"
+                                            value="" type="file"
                                             name="ficheiro" class="form-control" id="exampleInputEmail1">
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="titulo" class="form-label">Título <small
                                                 style="color: red;">*</small></label>
                                         <input value="<?php echo e(old('titulo')); ?>"
-                                            value="<?php echo e(isset($users->titulo) ? $users->titulo : ''); ?>" type="text"
+                                            value="" type="text"
                                             name="titulo" class="form-control" id="exampleInputEmail1">
                                     </div>
                                     <div class="form-group col-md-4">
@@ -143,12 +146,16 @@
 
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <label for="descricao" class="form-label">Título <small
+                                        <label for="descricacao" class="form-label">Descrição <small
                                                 style="color: red;">*</small></label>
-                                        <textarea class="form-control" name="descricao" id="" cols="30" rows="10"></textarea>
+                                        <textarea class="form-control" name="descricacao" id="" cols="30" rows="10"></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-primary">Submit</button>
                                 </form>
+                                <?php else: ?>
+                                <br>
+                                <p>Esta funcionalidade requer login</p>
+                                <?php endif; ?>
                             </div>
 
                         </div>

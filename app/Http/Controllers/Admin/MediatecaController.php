@@ -16,9 +16,8 @@ class MediatecaController extends Controller
     {
         $mensagens = [
             'required' => 'O :attribute é obrigatório!',
-            'tema.min' => 'É necessário no mínimo 4 caracteres no assunto!',
-            'corpo.min' => 'É necessário no mínimo 20 caracteres na Mensagem!',
-            'email.email' => 'Digite um email válido!'
+            'ficheiro.mimes' => 'O formato válido é o : PDF',
+
         ];
 
         $request->validate(
@@ -43,5 +42,6 @@ class MediatecaController extends Controller
             'categoria' => $request->categoria,
             'ficheiro' => $dados['ficheiro'],
         ]);
+
     }
 }

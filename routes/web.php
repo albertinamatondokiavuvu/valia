@@ -19,7 +19,7 @@ Route::get('/',[SiteController::class,'index'])->name('site');
 Route::get('updates/list/{id}',[SiteController::class,'updatesList'])->name('updatesList');
 //Mediateca
 Route::get('mediate_valia',[MediatecaController::class,'index'])->name('mediateca');
-
+Route::post('mediateca_valia/store', [MediatecaController::class, 'store'])->name('storemediateca');
 
 
 
