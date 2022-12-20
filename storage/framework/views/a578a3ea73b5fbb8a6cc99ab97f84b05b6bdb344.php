@@ -60,7 +60,7 @@
                                 <td><?php echo e(++$i); ?></td>
                                 <td class="text-center"><img src="/storage/<?php echo e($cursos->foto); ?>" width="50" height="50" alt=""></td>
                                 <td class="text-center"><?php echo e($cursos->curso); ?></td>
-                                <td class="text-center"><a href="/storage/<?php echo e($cursos->foto); ?>">Resumo do Curso</a></td>
+                                <td class="text-center"><a href="/storage/<?php echo e($cursos->resumo); ?>">Resumo do Curso</a></td>
                                 <td class="text-center"><?php echo e(date('d-m-Y', strtotime($cursos->created_at))); ?></td>
                                 <td>
                                     <div class="dropdown">

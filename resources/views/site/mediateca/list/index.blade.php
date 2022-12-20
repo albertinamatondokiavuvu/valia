@@ -81,30 +81,32 @@
                             <table id="example" class="table table-striped" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Número de Categorias: </th>
+                                        <th>Número de Categorias: @isset($categorias)
+                                            {{ $categorias }}
+                                            @else
+                                            0
+                                        @endisset  </th>
 
                                     </tr>
                                 </thead>
                                 <tbody>
 
-
+                                    @foreach ($categoria as $categoria)
                                     <tr>
 
                                         <td>
                                             <div class="row">
                                                 <div class="col-9">
-                                                    <a href=""> <img src="" alt=""> reste de uma </a>
+                                                    <a href="{{ route('ViewCategory',$categoria->categoria) }}"> <img src="" alt=""> {{ $categoria->categoria }} </a>
                                                 </div>
                                                 <div class="col-3">
-                                                    ficheiros: 1000
+                                                    ficheiros: {{ $categoria->ficheiro }}
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    @endforeach
 
-                                        <td>$86,500</td>
-                                    </tr>
 
                                 </tbody>
 

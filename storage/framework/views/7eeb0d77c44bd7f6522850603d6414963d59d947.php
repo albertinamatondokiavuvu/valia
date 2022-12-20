@@ -66,7 +66,6 @@
                                         <?php echo e(__('Logout')); ?>
 
                                     </a>
-
                                     <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="d-none">
                                         <?php echo csrf_field(); ?>
                                     </form>

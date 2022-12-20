@@ -10,7 +10,9 @@ class MediatecaController extends Controller
 {
     public function index()
     {
-        return view('site.mediateca.list.index');
+        $categorias = Mediateca::distinct('categoria')->count();
+        $categoria = Mediateca::selectRaw('categoria as categoria,COUNT(*) as ficheiro')->groupBy('categoria')->get();
+        return view('site.mediateca.list.index',compact('categorias','categoria'));
     }
     public function store(Request $request)
     {
@@ -43,5 +45,11 @@ class MediatecaController extends Controller
             'ficheiro' => $dados['ficheiro'],
         ]);
 
+    }
+    public function ViewCategory($categoria)
+    {
+       $ficheiros = Mediateca::where('categoria','=',$categoria)->get();
+       dd($ficheiros);
+       return view('site.mediateca.index.index');
     }
 }

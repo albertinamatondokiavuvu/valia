@@ -149,18 +149,13 @@
                                     </li>
 
                                     <li class="waves-effect waves-light">
-                                        <a href="auth-normal-sign-in.html">
-                                            <i class="ti-layout-sidebar-left" href="<?php echo e(route('logout')); ?>"
-                                            onclick="event.preventDefault();
-                                                          document.getElementById('logout-form').submit();"></i>
-                                             <?php echo e(__('Terminar Sessão')); ?>
-
-                                         </a>
-
-                                         <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="d-none">
-                                             <?php echo csrf_field(); ?>
-                                         </form>
-                                        </a>
+                                        <a  href="<?php echo e(route('logout')); ?>"
+                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                <i class="ti-power-off"></i>
+                                Terminar Sessão</a>
+                            <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST">
+                                <?php echo csrf_field(); ?>
+                            </form>
                                     </li>
                                 </ul>
                             </li>

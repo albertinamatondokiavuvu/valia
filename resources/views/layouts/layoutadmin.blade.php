@@ -148,17 +148,13 @@
                                     </li>
 
                                     <li class="waves-effect waves-light">
-                                        <a href="auth-normal-sign-in.html">
-                                            <i class="ti-layout-sidebar-left" href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-                                                          document.getElementById('logout-form').submit();"></i>
-                                             {{ __('Terminar Sessão') }}
-                                         </a>
-
-                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                             @csrf
-                                         </form>
-                                        </a>
+                                        <a  href="{{ route('logout') }}"
+                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                <i class="ti-power-off"></i>
+                                Terminar Sessão</a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                                @csrf
+                            </form>
                                     </li>
                                 </ul>
                             </li>

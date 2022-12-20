@@ -80,30 +80,34 @@
                             <table id="example" class="table table-striped" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Número de Categorias: </th>
+                                        <th>Número de Categorias: <?php if(isset($categorias)): ?>
+                                            <?php echo e($categorias); ?>
+
+                                            <?php else: ?>
+                                            0
+                                        <?php endif; ?>  </th>
 
                                     </tr>
                                 </thead>
                                 <tbody>
 
-
+                                    <?php $__currentLoopData = $categoria; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $categoria): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                     <tr>
 
                                         <td>
                                             <div class="row">
                                                 <div class="col-9">
-                                                    <a href=""> <img src="" alt=""> reste de uma </a>
+                                                    <a href="<?php echo e(route('ViewCategory',$categoria->categoria)); ?>"> <img src="" alt=""> <?php echo e($categoria->categoria); ?> </a>
                                                 </div>
                                                 <div class="col-3">
-                                                    ficheiros: 1000
+                                                    ficheiros: <?php echo e($categoria->ficheiro); ?>
+
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
-                                        <td>$86,500</td>
-                                    </tr>
 
                                 </tbody>
 

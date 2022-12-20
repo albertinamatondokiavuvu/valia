@@ -36,20 +36,13 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
   Route::get('dashboard/delete_update/{id}', [UpdateController::class, 'destroy'])->name('deleteupdate');
   Route::get('dashboard/show_update/{id}', [UpdateController::class, 'list'])->name('listupdate');
   //END OF UPDATE
-   //BEGINNING OF COURSE
+   //BEGINNING OF GABARITO
  Route::get('dashboard/index_gabarito', [GabaritoController::class, 'index'])->name('indexgabarito');
  Route::get('dashboard/create_gabarito', [GabaritoController::class, 'create'])->name('creategabarito');
  Route::post('dashboard/store_gabarito', [GabaritoController::class, 'store'])->name('storegabarito');
  Route::get('dashboard/edit_gabarito/{id}', [GabaritoController::class, 'edit'])->name('editgabarito');
  Route::post('dashboard/update_gabarito/{id}', [GabaritoController::class, 'update'])->name('updategabarito');
  Route::get('dashboard/delete_gabarito/{id}', [GabaritoController::class, 'destroy'])->name('deletegabarito');
- //END OF COURSE
-   //BEGINNING OF MEDIATECA
-   Route::get('dashboard/index_gabarito', [GabaritoController::class, 'index'])->name('indexgabarito');
-   Route::get('dashboard/create_gabarito', [GabaritoController::class, 'create'])->name('creategabarito');
-   Route::post('dashboard/store_gabarito', [GabaritoController::class, 'store'])->name('storegabarito');
-   Route::get('dashboard/edit_gabarito/{id}', [GabaritoController::class, 'edit'])->name('editgabarito');
-   Route::post('dashboard/update_gabarito/{id}', [GabaritoController::class, 'update'])->name('updategabarito');
-   Route::get('dashboard/delete_gabarito/{id}', [GabaritoController::class, 'destroy'])->name('deletegabarito');
-   //END OF MEDIATECA
+ //END OF GABARITO
+
 });
