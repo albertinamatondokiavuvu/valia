@@ -967,6 +967,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v8.83.27",
             "source": {
                 "type": "git",
@@ -977,6 +978,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/e1afe088b4ca613fb96dc57e6d8dbcb8cc2c6b49",
                 "reference": "e1afe088b4ca613fb96dc57e6d8dbcb8cc2c6b49",
+=======
+            "version": "v8.83.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "7411d9fa71c1b0fd73a33e225f14512b74e6c81e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7411d9fa71c1b0fd73a33e225f14512b74e6c81e",
+                "reference": "7411d9fa71c1b0fd73a33e225f14512b74e6c81e",
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
                 "shasum": ""
             },
             "require": {
@@ -1136,7 +1149,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2022-12-08T15:28:55+00:00"
+=======
+            "time": "2022-11-01T14:48:50+00:00"
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
         },
         {
             "name": "laravel/sanctum",
@@ -1935,6 +1952,7 @@
             "time": "2022-11-26T17:36:00+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "nette/schema",
             "version": "v1.2.3",
             "source": {
@@ -2091,6 +2109,17 @@
             },
             "dist": {
                 "type": "zip",
+=======
+            "name": "nikic/php-parser",
+            "version": "v4.15.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc"
+            },
+            "dist": {
+                "type": "zip",
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc",
                 "reference": "f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc",
                 "shasum": ""
@@ -5942,6 +5971,7 @@
         },
         {
             "name": "laravel/sail",
+<<<<<<< HEAD
             "version": "v1.16.5",
             "source": {
                 "type": "git",
@@ -5952,6 +5982,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sail/zipball/9ec5338d13bdc941a23347cb36385988c525fe02",
                 "reference": "9ec5338d13bdc941a23347cb36385988c525fe02",
+=======
+            "version": "v1.16.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sail.git",
+                "reference": "0dbee8802e17911afbe29a8506316343829b056e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/0dbee8802e17911afbe29a8506316343829b056e",
+                "reference": "0dbee8802e17911afbe29a8506316343829b056e",
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
                 "shasum": ""
             },
             "require": {
@@ -5998,7 +6040,11 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
+<<<<<<< HEAD
             "time": "2022-12-14T14:54:21+00:00"
+=======
+            "time": "2022-11-21T16:19:18+00:00"
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
         },
         {
             "name": "mockery/mockery",
@@ -6331,6 +6377,7 @@
         },
         {
             "name": "phpunit/php-code-coverage",
+<<<<<<< HEAD
             "version": "9.2.22",
             "source": {
                 "type": "git",
@@ -6341,6 +6388,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/e4bf60d2220b4baaa0572986b5d69870226b06df",
                 "reference": "e4bf60d2220b4baaa0572986b5d69870226b06df",
+=======
+            "version": "9.2.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "c77b56b63e3d2031bd8997fcec43c1925ae46559"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c77b56b63e3d2031bd8997fcec43c1925ae46559",
+                "reference": "c77b56b63e3d2031bd8997fcec43c1925ae46559",
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
                 "shasum": ""
             },
             "require": {
@@ -6396,7 +6455,11 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.22"
+=======
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.19"
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
             },
             "funding": [
                 {
@@ -6404,7 +6467,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2022-12-18T16:40:55+00:00"
+=======
+            "time": "2022-11-18T07:47:47+00:00"
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -6649,6 +6716,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "9.5.27",
             "source": {
                 "type": "git",
@@ -6659,6 +6727,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a2bc7ffdca99f92d959b3f2270529334030bba38",
                 "reference": "a2bc7ffdca99f92d959b3f2270529334030bba38",
+=======
+            "version": "9.5.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/851867efcbb6a1b992ec515c71cdcf20d895e9d2",
+                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2",
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
                 "shasum": ""
             },
             "require": {
@@ -6731,7 +6811,11 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.27"
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.26"
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
             },
             "funding": [
                 {
@@ -6747,7 +6831,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2022-12-09T07:31:23+00:00"
+=======
+            "time": "2022-10-28T06:00:21+00:00"
+>>>>>>> 4501866969a0eabe4ffeb232a59cb31b043dd047
         },
         {
             "name": "sebastian/cli-parser",

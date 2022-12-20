@@ -7,7 +7,7 @@
 
       </div>
       <div class="cta d-none d-md-block">
-        <a href="#about" class="scrollto"><i class="bi bi-phone-fill phone-icon"></i>Entrar</a>
+        <a href="{{ route('login') }}" class="scrollto"><i class="bi bi-phone-fill phone-icon"></i>Entrar</a>
       </div>
     </div>
   </div>
@@ -22,18 +22,20 @@
 
       <nav id="navbar" class="navbar">
         <ul>
+            @if (Request::is('/'))
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Cursos</a></li>
-          <li class="dropdown"><a href="#"><span>Bolsas</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Bolsa dos Formadores</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#team">Mediateca Valia.ao</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contactos</a></li>
+          <li><a class="nav-link scrollto" href="#service">Serviços</a></li>
+          <li><a class="nav-link scrollto " href="#course">Cursos</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('mediateca') }}">Bolsa de Formadores</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('mediateca') }}">Mediateca Valia.ao</a></li>
+          @else
+          <li><a class="nav-link scrollto active" href="{{ route('site') }}">Voltar ao início</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('mediateca') }}">Bolsa de Formadores</a></li>
+            <li><a class="nav-link scrollto" href="{{ route('mediateca') }}">Mediateca Valia.ao</a></li>
+          @endif
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+
       </nav><!-- .navbar -->
 
     </div>
