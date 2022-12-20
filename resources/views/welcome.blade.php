@@ -84,7 +84,7 @@
                         data-aos-delay="100">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-file"></i></div>
-                            <h4 class="title"><a href="">Vissão</a></h4>
+                            <h4 class="title"><a href="">Visão</a></h4>
                             <p class="description">Ser reconhecido como pioneira e líder no segmento de avaliações e
                                 fornecimento
                                 de testes padronizados...</p>
@@ -285,12 +285,6 @@
             </div>
         </section><!-- End Team Section -->
         <!-- ======= Cta Section ======= -->
-        <div class="section-title">
-            <br>
-            <h2>Cursos valia.ao</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate.</p>
-        </div>
         <section id="cta" class="cta">
 
             <div class="container">
@@ -299,7 +293,7 @@
                 <div class="row" data-aos="zoom-in">
                     <div class="col-lg-12 text-center text-lg-center">
                         <div class="row">
-                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 px-4" data-aos="fade-up">
                                 <div class="icon-box">
                                     <div class="icon"><img src="/img/Graduation Cap_100px.png" alt=""
                                             srcset=""></div>
@@ -310,7 +304,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 px-4" data-aos="fade-up"
                                 data-aos-delay="100">
                                 <div class="icon-box">
                                     <div class="icon"><img src="/img/Hand With Pen_100px.png" alt=""
@@ -322,7 +316,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 px-4" data-aos="fade-up"
                                 data-aos-delay="200">
                                 <div class="icon-box">
                                     <div class="icon"><img src="/img/Organization_100px.png" alt=""
@@ -343,22 +337,24 @@
             </div>
         </section><!-- End Cta Section -->
         <!-- ======= Why Us Section ======= -->
+        <div class="section-title">
+            <br> <br>
+            <h2>Cursos valia.ao</h2>
+            <p>Confira a nossa lista de cursos.</p>
+            <br>
+        </div>
         <section id="why-us" class="why-us">
             <div class="container-fluid">
 
                 <div class="row">
 
                     <div class="col-lg-5 align-items-stretch position-relative video-box"
-                        style='background-image: url("assets/img/why-us.jpg");' data-aos="fade-right">
+                        style='background-image: url("assets/img/course/teacherGiveChalk.jpg");' data-aos="fade-right">
                         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn mb-4"></a>
                     </div>
 
-                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch"
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch p-5"
                         data-aos="fade-left">
-
-                        <div class="content">
-                            <h3>Cursos Administrados pela <strong>Valia.ao</strong></h3>
-                        </div>
                         <table class="table table-striped">
                             <thead>
                                 <tr>
@@ -427,7 +423,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Contact Us</h2>
+                    <h2>Contacta-nos</h2>
                 </div>
 
                 <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
@@ -436,20 +432,20 @@
                         <div class="info">
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <h4>Localização:</h4>
+                                <p>Av. 21 de Janeiro, nº 217 r/c,<br> Morro Bento, Luanda, de fronte a Multiperfil</p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <p>valia@example.com</p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <h4>Telefone:</h4>
+                                <p>+244 925 630 092 / +244 922 630 092</p>
                             </div>
 
                         </div>
@@ -462,26 +458,26 @@
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="Your Name" required>
+                                        placeholder="Nome" required>
                                 </div>
                                 <div class="col-md-6 form-group mt-3 mt-md-0">
                                     <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email" required>
+                                        placeholder="Email" required>
                                 </div>
                             </div>
                             <div class="form-group mt-3">
                                 <input type="text" class="form-control" name="subject" id="subject"
-                                    placeholder="Subject" required>
+                                    placeholder="Assunto" required>
                             </div>
                             <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                <textarea class="form-control" name="message" rows="5" placeholder="mensagem" required></textarea>
                             </div>
                             <div class="my-3">
-                                <div class="loading">Loading</div>
+                                <div class="loading">Carregando</div>
                                 <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <div class="sent-message">A sua mensagem foi enviada. Obrigado!</div>
                             </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
+                            <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
                         </form>
 
                     </div>
