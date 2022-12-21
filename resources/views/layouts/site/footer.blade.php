@@ -90,6 +90,23 @@ var swiper = new Swiper('.swiper-container', {
   }
 });
 </script>
+<script>
+  var clicks = document.querySelectorAll('.click-trigger'); // IE8
+  for(var i = 0; i < clicks.length; i++){
+    clicks[i].onclick = function(){
+      var id = this.getAttribute('data-click-id');
+      var post = 'id='+id; // post string
+      var req = new XMLHttpRequest();
+      req.open('POST', 'contador.php', true);
+      req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      req.onreadystatechange = function(){
+        if (req.readyState != 4 || req.status != 200) return;
+        document.getElementById(id).innerHTML = req.responseText;
+        };
+      req.send(post);
+      }
+    }
+  </script>
 </body>
 
 </html>

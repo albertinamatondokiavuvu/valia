@@ -21,6 +21,7 @@ Route::get('updates/list/{id}',[SiteController::class,'updatesList'])->name('upd
 Route::get('mediate_valia',[MediatecaController::class,'index'])->name('mediateca');
 Route::post('mediateca_valia/store', [MediatecaController::class, 'store'])->name('storemediateca');
 Route::get('mediate_valia/view_category/{categoria}',[MediatecaController::class,'ViewCategory'])->name('ViewCategory');
-
+Route::get('mediate_valia/list_category/{id}',[MediatecaController::class,'ListC'])->name('ListC');
+Route::get('mediateca_valia/donwloadSoma/{id}',[MediatecaController::class,'donwloadSoma'])->name('donwloadSoma');
 
 

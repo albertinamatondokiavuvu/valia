@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
-
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use App\Models\Mediateca;
 use Illuminate\Http\Request;
+
 
 class MediatecaController extends Controller
 {
@@ -44,12 +45,30 @@ class MediatecaController extends Controller
             'categoria' => $request->categoria,
             'ficheiro' => $dados['ficheiro'],
         ]);
-
     }
     public function ViewCategory($categoria)
     {
+
+
        $ficheiros = Mediateca::where('categoria','=',$categoria)->get();
-       dd($ficheiros);
-       return view('site.mediateca.index.index');
+       $fic = Mediateca::select('categoria')->where('categoria','=',$categoria)->first();
+       return view('site.mediateca.index.index',compact('ficheiros','fic'))->with('i', (request()->input('page', 1) - 1) * 5);
     }
+    public function ListC($id)
+    {
+        $ficheiros = Mediateca::find($id);
+        return view('site.mediateca.index',compact('ficheiros'))->with('i', (request()->input('page', 1) - 1) * 5);
+    }
+    public function donwloadSoma($id)
+    {
+
+        $d = Mediateca::find($id)->update([
+            'donw' => Mediateca::raw('donw+1'),
+        ]);
+        $t = Mediateca::select('ficheiro')->where('id','=',$id)->first();
+        $file = getcwd().'/storage/'.$t->ficheiro;
+        return response()->download($file);
+
+    }
+
 }

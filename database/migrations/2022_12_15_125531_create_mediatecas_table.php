@@ -19,6 +19,7 @@ class CreateMediatecasTable extends Migration
             $table->string('titulo');
             $table->text('descricacao');
             $table->string('categoria');
+            $table->integer('donw')->default(0);
             $table->timestamps();
         });
     }
