@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\MediatecaController;
 use App\Http\Controllers\SiteController;
+use App\Http\Controllers\BolsaFormadoresController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,6 +22,9 @@ Route::get('updates/list/{id}',[SiteController::class,'updatesList'])->name('upd
 Route::get('mediate_valia',[MediatecaController::class,'index'])->name('mediateca');
 Route::post('mediateca_valia/store', [MediatecaController::class, 'store'])->name('storemediateca');
 Route::get('mediate_valia/view_category/{categoria}',[MediatecaController::class,'ViewCategory'])->name('ViewCategory');
+
+//BolsaFormadores
+Route::get('bolsaFormadores/create',[BolsaFormadoresController::class,'create'])->name('criarBolsaFormadores');
 
 
 

@@ -8,6 +8,7 @@
             margin-left: 10%;
         }
     </style>
+
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex justify-cntent-center align-items-center">
         <div id="heroCarousel" data-bs-interval="7000" class="container carousel carousel-fade" data-bs-ride="carousel">
@@ -117,28 +118,45 @@
 @if(Auth::check())
 
 
-
                                 <form action="{{ route('storemediateca') }}" class="row" method="POST" enctype="multipart/form-data">
                                     @csrf
-                                    <div class="form-group col-md-4">
-                                        <label for="ficheiro" class="form-label">ficheiro <small
+                                    <div class="form-group col-md-6">
+                                        <label for="fotografia" class="form-label">Fotografia <small
                                                 style="color: red;">*</small></label>
                                         <input value="{{ old('ficheiro') }}"
-                                            value="" type="file"
-                                            name="ficheiro" class="form-control" id="exampleInputEmail1">
+                                            type="file" name="fotografia" class="form-control" id="fotografia">
                                     </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="titulo" class="form-label">Título <small
+                                    <div class="form-group col-md-6">
+                                        <label for="nomeCompleto" class="form-label">Nome Completo <small
                                                 style="color: red;">*</small></label>
                                         <input value="{{ old('titulo') }}"
-                                            value="" type="text"
-                                            name="titulo" class="form-control" id="exampleInputEmail1">
+                                            type="text"
+                                            name="nomeCompleto" class="form-control" id="nomeCompleto">
                                     </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="tipoDocumento" class="form-label ">Categoria <small
+                                    <div class="form-group col-md-6">
+                                        <label for="cv" class="form-label">Curriculum Vitae
+                                            <small style="color: red;">*</small></label>
+                                        <input value="{{ old('ficheiro') }}"
+                                            type="file" name="cv" class="form-control" id="cv">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="email" class="form-label">email <small
+                                                style="color: red;">*</small></label>
+                                        <input value="{{ old('titulo') }}"
+                                            type="email"
+                                            name="email" class="form-control" id="email">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="areaFormacao" class="form-label">Area de formação
+                                            <small style="color: red;">*</small></label>
+                                        <input value="{{ old('ficheiro') }}"
+                                            type="text" name="areaFormacao" class="form-control" id="areaFormacao">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="categoria" class="form-label ">Categoria <small
                                                 style="color: red;">*</small></label>
                                         <select style="color:black;!importante" class="form-control select2"
-                                            name="categoria" id="">
+                                            name="categoria" id="categoria">
 
                                             <option selected disabled value="">Selecione:</option>
 
@@ -146,15 +164,18 @@
                                             <option value="Passaporte">Passaporte</option>
                                             <option value="Cédula Pessoal">Cédula Pessoal</option>
                                         </select>
-
                                     </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="descricacao" class="form-label">Descrição <small
-                                                style="color: red;">*</small></label>
-                                        <textarea class="form-control" name="descricacao" id="" cols="30" rows="10"></textarea>
+                                                                     
+                                    <div class="form-group col-md-12">
+                                        <label for="localidade" class="form-label">Localidade 
+                                            <small style="color: red;">*</small></label>
+                                        <input value="{{ old('ficheiro') }}"
+                                            type="text" name="localidade" class="form-control" id="localidade">
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
+                                    
+                                    
+                                    <button type="submit" class="btn btn-primary">Carregar</button>
+                                </form> 
                                 @else
                                 <br>
                                 <p>Esta funcionalidade requer login</p>
