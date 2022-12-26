@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class bolsaFormador extends Model
 {
     use HasFactory;
+    protected $guarded = ['id'];
 }

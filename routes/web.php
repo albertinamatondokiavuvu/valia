@@ -25,6 +25,6 @@ Route::get('mediate_valia/view_category/{categoria}',[MediatecaController::class
 
 //BolsaFormadores
 Route::get('bolsaFormadores/create',[BolsaFormadoresController::class,'create'])->name('criarBolsaFormadores');
-
+Route::post('bolsaFormadores/create',[BolsaFormadoresController::class,'store'])->name('storeBolsaFormadores');
 
 
