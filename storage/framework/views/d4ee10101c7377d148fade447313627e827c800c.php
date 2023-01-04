@@ -83,8 +83,6 @@
                                 <tbody>
 <?php if(isset($ficheiros)): ?>
 
-
-
                                     <?php $__currentLoopData = $ficheiros; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ficheiros): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                     <tr>
 

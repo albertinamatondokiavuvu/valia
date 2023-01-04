@@ -83,8 +83,6 @@
                                 <tbody>
 @isset($ficheiros)
 
-
-
                                     @foreach ($ficheiros as $ficheiros)
                                     <tr>
 

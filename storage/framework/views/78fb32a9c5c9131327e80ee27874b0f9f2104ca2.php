@@ -59,7 +59,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="<?php if(isset($ficheiros)): ?>
 
-                            <?php echo e(route('ListC',$ficheiros->id)); ?><?php endif; ?>"><i class="bi bi-arrow-return-left"></i>
+                            <?php echo e(route('ViewCategory',$ficheiros->categoria)); ?><?php endif; ?>"><i class="bi bi-arrow-return-left"></i>
                                 Voltar a página anterior</a>
                         </li>
 

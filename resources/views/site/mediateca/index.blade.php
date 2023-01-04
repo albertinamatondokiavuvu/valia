@@ -60,7 +60,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="@isset($ficheiros)
 
-                            {{ route('ListC',$ficheiros->id) }}@endisset"><i class="bi bi-arrow-return-left"></i>
+                            {{ route('ViewCategory',$ficheiros->categoria) }}@endisset"><i class="bi bi-arrow-return-left"></i>
                                 Voltar a página anterior</a>
                         </li>
 
