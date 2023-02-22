@@ -42,7 +42,7 @@
     left: 0;
     width: 70%;/*100%*/
     height: 100%;
-    background: #07b9ff;
+    background: #023856;
     transition: .5s;
     transform-origin: left;
     transform: perspective(2000px) rotateY(-90deg);
@@ -96,7 +96,7 @@
     transform: .5s;
 }
 .card .details .center ul li a:hover {
-    background: #07b9ff;
+    background: #023856;;
 }
 
         .btn-archive {
@@ -208,7 +208,7 @@
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4 class="title"><a href="">Missão</a></h4>
                             <p class="description">Promover a qualidade e a equidade na avaliação, fornecimento
-                                testes padronizados... <a href="">Ler mais</a></p>
+                                testes padronizados... <a href="" style="color: #023856;">Ler mais</a></p>
 
                         </div>
                     </div>
@@ -220,7 +220,7 @@
                             <p class="description">Ser reconhecido como pioneira e líder no segmento de avaliações e
                                 fornecimento
                                 de testes padronizados...</p>
-                            <a href="">Ler mais</a>
+                            <a href="" style="color: #023856;">Ler mais</a>
                         </div>
                     </div>
 
@@ -271,7 +271,7 @@
                                             <h4> VALIA.Lic</h4>
                                             <span></span>
                                             <p>O VALIA.LIc é um serviço especializado em licenciamento ... <a
-                                                    href="">Ler mais</a></p>
+                                                    href="" style="color:#023856;">Ler mais</a></p>
 
 
                                         </div>
@@ -463,7 +463,7 @@
                                       <p class="card-text">
                                         <span class="attached"><a target="_blank" href="/storage/<?php echo e($cursos->resumo); ?>"><i class="fas fa-paperclip"></i> Resumo do Curso</a></span>
                                       </p>
-                                      <a href="#" class="btn btn-primary">Pré-Inscrição</a>
+                                      <a href="#" class="btn btn" style="background: #023856;color:white;">Pré-Inscrição</a>
                                     </div>
                                   </div>
 
@@ -595,7 +595,7 @@
                         <div class="col-lg-4">
                             <img src="/storage/<?php echo e($gabaritos->capa); ?>" alt="" srcset="" class="card-img-top imgC1">
                             <p class="text-center"><?php echo e($gabaritos->titulo); ?></p>
-                            <a  href="/storage/<?php echo e($gabaritos->documento); ?>" target="_blank" class="btn btn-primary center pl-4">baixar</a>
+                            <a  href="/storage/<?php echo e($gabaritos->documento); ?>" target="_blank"  style="background: #023856;color:white;" class="btn btn center pl-4">baixar</a>
 
 
                         </div>

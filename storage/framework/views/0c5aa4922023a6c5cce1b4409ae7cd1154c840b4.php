@@ -4,7 +4,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Valia.ao</span></strong>. Todos os direitos reservados
+        &copy;<strong><span>Valia.ao</span></strong>. Todos os direitos reservados
       </div>
 
     </div>

@@ -19,7 +19,7 @@
 
       <!--<h1 class="logo"><a href="index.html">Anyar</a></h1>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-       <a href="<?php echo e(route('home')); ?>" class="logo"><img src="/img/logo/Ativo 27.png" alt="" class="img-fluid"></a>
+       <a href="<?php echo e(route('home')); ?>" class="logo"><img src="/img/logo/logoValia.png" style="padding:5px;" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
