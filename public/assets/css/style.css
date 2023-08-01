@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -212,11 +212,11 @@ h6 {
 }
 
 .header-inner-pages {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95)) !important;
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95)) !important;
 }
 
 .topbar-inner-pages {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95)) !important;
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95)) !important;
 }
 
 /*--------------------------------------------------------------
@@ -365,7 +365,7 @@ h6 {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: black;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -499,7 +499,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   position: absolute;
   bottom: 0;
   top: 0;
@@ -566,7 +566,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
   text-decoration: none;
 }
@@ -747,7 +747,7 @@ section {
 }
 
 .about .content .btn-learn-more:hover {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
   text-decoration: none;
 }
@@ -1090,7 +1090,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95)), url(../img/cta-bg.jpg) fixed center center;
+     background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95)), url(../img/cta-bg.jpg) fixed center center;
     background-size: cover;
     padding: 120px 0;
 }
@@ -1122,7 +1122,7 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
 }
 
 @media (max-width: 1024px) {
@@ -1166,7 +1166,7 @@ section {
 .portfoio #portfolio-flters li:hover,
 .portfoio #portfolio-flters li.filter-active {
   color: #fff;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
 }
 
 .portfoio #portfolio-flters li:last-child {
@@ -1192,7 +1192,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   padding: 15px 20px;
 }
 
@@ -1386,7 +1386,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
 }
 
@@ -1469,7 +1469,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 50px;
@@ -1488,7 +1488,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
 }
 
 .pricing .advanced {
@@ -1500,7 +1500,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
 }
 
@@ -1723,7 +1723,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
 }
 
@@ -1859,7 +1859,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -2133,7 +2133,7 @@ section {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
 }
 
 .blog .blog-pagination li.active a,
@@ -2184,7 +2184,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2281,7 +2281,7 @@ section {
 .blog .sidebar .tags ul a:hover {
   color: #fff;
   border: 1px solid #023856;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
 }
 
 .blog .sidebar .tags ul a span {
@@ -2294,7 +2294,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background:linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+    background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2337,18 +2337,18 @@ section {
   font-size: 16px;
   padding: 0 20px;
   margin: 3px;
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
 }
 
 #footer .footer-top {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   padding: 60px 0 30px 0;
 }
 
@@ -2388,7 +2388,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: linear-gradient(#08e8e1, rgba(6, 241, 178, 0.95), rgba(214, 241, 6, 0.95));
+   background: linear-gradient(#017a76d8, rgba(5, 140, 104, 0.95), rgba(150, 169, 2, 0.95));
   color: #fff;
   text-decoration: none;
 }

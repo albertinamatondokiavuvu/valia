@@ -138,12 +138,7 @@
                                 <ul class="show-notification profile-notification">
 
                                     <li class="waves-effect waves-light">
-                                        <a href="user-profile.html">
-                                            <i class="ti-user"></i> Perfil
-                                        </a>
-                                    </li>
-                                    <li class="waves-effect waves-light">
-                                        <a href="email-inbox.html">
+                                        <a href="#">
                                             <i class="ti-help"></i> Ajuda
                                         </a>
                                     </li>
@@ -190,7 +185,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            <div class="pcoded-navigation-label">Configurações do sitet</div>
+                            <div class="pcoded-navigation-label">Configurações do site</div>
                             <ul class="pcoded-item pcoded-left-item">
                                 <li class="pcoded-hasmenu">
                                     <a href="javascript:void(0)" class="waves-effect waves-dark">

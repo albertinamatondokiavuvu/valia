@@ -19,7 +19,7 @@
 
       <!--<h1 class="logo"><a href="index.html">Anyar</a></h1>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-       <a href="{{ route('home') }}" class="logo"><img src="/img/logo/logoValia.png" style="padding:5px;" alt="" class="img-fluid"></a>
+       <a href="{{ route('site') }}" class="logo"><img src="/img/logo/logoValia.png" style="padding:5px;" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -27,7 +27,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#service">Serviços</a></li>
           <li><a class="nav-link scrollto " href="#course">Cursos</a></li>
-          <li><a class="nav-link scrollto" href="{{ route('mediateca') }}">Bolsa de Formadores</a></li>
+          <li><a class="nav-link scrollto" href="#">Bolsa de Formadores</a></li>
           <li><a class="nav-link scrollto" href="{{ route('mediateca') }}">Mediateca Valia.ao</a></li>
           @else
           <li><a class="nav-link scrollto active" href="{{ route('site') }}">Voltar ao início</a></li>

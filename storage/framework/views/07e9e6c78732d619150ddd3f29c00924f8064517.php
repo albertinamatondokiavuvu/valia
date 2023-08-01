@@ -59,14 +59,7 @@
                             <a class="nav-link" data-bs-toggle="tab" href="#file"><i
                                     class="bi bi-file-earmark-plus-fill"></i> Enviar ficheiro</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#hist"><i class="bi bi-folder-fill"></i>
-                                histórico</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#est"><i class="bi bi-bar-chart-fill"></i>
-                                Estatística</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" data-bs-toggle="tab" href="#ajuda"><i
                                     class="bi bi-question-circle-fill"></i> Ajuda</a>
