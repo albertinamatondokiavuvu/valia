@@ -1,5 +1,6 @@
 <?php $__env->startSection('title', ' - pagina inicial'); ?>
 <?php $__env->startSection('content'); ?>
+<?php echo $__env->make('layouts.modal.site', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     <style>
         a {
             color: #282829;
@@ -41,7 +42,7 @@
             height: 5px;
         }
     </style>
-    <?php echo $__env->make('layouts.modal.site', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
     <style>
         @import  url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 
@@ -268,7 +269,7 @@
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4 class="title"><a href="">Missão</a></h4>
                             <p class="description">Promover a qualidade e a equidade na avaliação, fornecimento
-                                testes padronizados... <a href="" style="color: #023856;">Ler mais</a></p>
+                                testes padronizados... <a href="#" data-bs-toggle="modal" data-bs-target="#missao" style="color: #023856;">Ler mais</a></p>
 
                         </div>
                     </div>
@@ -280,7 +281,7 @@
                             <p class="description">Ser reconhecido como pioneira e líder no segmento de avaliações e
                                 fornecimento
                                 de testes padronizados...</p>
-                            <a href="" style="color: #023856;">Ler mais</a>
+                            <a  href="#" data-bs-toggle="modal" data-bs-target="#visao" style="color: #023856;">Ler mais</a>
                         </div>
                     </div>
 
@@ -330,8 +331,8 @@
                                         <div class="member-info">
                                             <h4> VALIA.Lic</h4>
                                             <span></span>
-                                            <p>O VALIA.LIc é um serviço especializado em licenciamento ... <a href=""
-                                                    style="color:#023856;">Ler mais</a></p>
+                                            <p>O VALIA.LIc é um serviço especializado em licenciamento ... <a href="#"
+                                                    style="color:#023856;" data-bs-toggle="modal" data-bs-target="#valialinc">Ler mais</a></p>
 
 
                                         </div>
@@ -344,7 +345,7 @@
                                         <div class="member-info">
                                             <h4>Valia.Estágios</h4>
                                             <span></span>
-                                            <p>Através de nossos parceiros a VALIA.AO oferece a... <a href="">Ler
+                                            <p>Através de nossos parceiros a VALIA.AO oferece a... <a href="#" data-bs-toggle="modal" data-bs-target="#valia.estagios">Ler
                                                     mais</a></p>
 
                                         </div>
@@ -357,7 +358,7 @@
                                             <h4>Valia.Max</h4>
                                             <span></span>
                                             <p>Realizar avaliações rigorosas baseadas em pesquisas e
-                                                ... <a href="">Ler mais</a>
+                                                ... <a href="#" data-bs-toggle="modal" data-bs-target="#valia.max">Ler mais</a>
 
 
                                             </p>
@@ -378,7 +379,7 @@
                                             <h4> VALIA.Impulso</h4>
                                             <span></span>
                                             <p>É um serviço de parceria com outras empresa, onde incrementamos o ... <a
-                                                    href="">Ler mais</a></p>
+                                                href="#" data-bs-toggle="modal" data-bs-target="#valia.impulso">Ler mais</a></p>
 
                                         </div>
                                     </div>
@@ -391,7 +392,7 @@
                                             <h4>Valia.Recrutamento</h4>
                                             <span></span>
                                             <p>través do VALIA.Recrumanto e apoiamos as instituições no processo de ... <a
-                                                    href="">Ler mais</a></a></p>
+                                                href="#" data-bs-toggle="modal" data-bs-target="#valia.recrutamento">Ler mais</a></a></p>
 
                                         </div>
                                     </div>
@@ -403,7 +404,7 @@
                                             <h4>Valia.Soluções</h4>
                                             <span></span>
                                             <p>Em através dos nos parceiros, e utilizando metodologias apoiadas por ... <a
-                                                    href="">Ler mais</a>
+                                                href="#" data-bs-toggle="modal" data-bs-target="#valia.solucao">Ler mais</a>
 
                                             </p>
 
@@ -425,8 +426,8 @@
                                             <p>
                                                 Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
                                                 ás
-                                                ... <a href="" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModal">Ler mais</a>
+                                                ... <a href="#" data-bs-toggle="modal"
+                                                    data-bs-target="#valia.formacao">Ler mais</a>
 
                                             </p>
 
@@ -442,8 +443,8 @@
                                             <p>
                                                 Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
                                                 ás
-                                                ... <a href="" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModal">Ler mais</a>
+                                                ... <a href="#" data-bs-toggle="modal"
+                                                    data-bs-target="#valia.gest">Ler mais</a>
 
                                             </p>
 
@@ -459,8 +460,8 @@
                                             <p>
                                                 Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
                                                 ás
-                                                ... <a href="" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModal">Ler mais</a>
+                                                ... <a href="#" data-bs-toggle="modal"
+                                                    data-bs-target="#valia.consultoria">Ler mais</a>
 
                                             </p>
 
@@ -630,13 +631,13 @@
                                         <h1>Justino Cossengue Valentim<br><span>Fundador</span></h1>
                                         <p>Estamos convencidos de que, por meio da educação, pequisa , desenvolvimento e
                                             inovação podemos mudar o mundo. Foi essa convicção que nos levou fundar a
-                                            VALIA.ao em 2021... <a href="#">Ler mais</a></p>
+                                            VALIA.ao em 2021... <a href="#" data-bs-toggle="modal" data-bs-target="#fundador">Ler mais</a></p>
                                         <ul>
-                                            <li><a href="#"><i class="bx bxl-facebook" aria-hidden="true"></i></a>
+                                            <li><a href="https://web.facebook.com/people/VALIA-AO/100083004019073/?_rdc=1&_rdr"><i class="bx bxl-facebook" aria-hidden="true"></i></a>
                                             </li>
                                             <li><a href="#"><i class="bx bxl-tiktok" aria-hidden="true"></i></a>
                                             </li>
-                                            <li><a href="#"><i class="bx bxl-linkedin" aria-hidden="true"></i></a>
+                                            <li><a href="Likendhttps://www.linkedin.com/company/42701932/admin/notifications/all/"><i class="bx bxl-linkedin" aria-hidden="true"></i></a>
                                             </li>
                                             <li><a href="#"><i class="bx bxl-instagram" aria-hidden="true"></i></a>
                                             </li>
@@ -663,25 +664,46 @@
                                         setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
                                         date_default_timezone_set('America/Sao_Paulo');
                                         echo strftime(' %d de %B , %Y', strtotime($updates->created_at)); ?>
-                                        <br>
                                         <a href="<?php echo e(route('updatesList', $updates->id)); ?>">
                                             <strong><?php echo e($updates->titulo); ?></strong></a>
-                                        <br>
+
                                         Categoria: <?php echo e($updates->categoria); ?>
 
                                     </div>
                                 </div>
-                                <br>
                                 <?php }; ?>
+
                             <?php endif; ?>
+
                         </div>
                         <?php if(isset($gabaritos)): ?>
+
+
                             <div class="col-lg-4">
-                                <img src="/storage/<?php echo e($gabaritos->capa); ?>" alt="" srcset=""
-                                    class="card-img-top imgC1">
-                                <p class="text-center"><?php echo e($gabaritos->titulo); ?></p>
-                                <a href="/storage/<?php echo e($gabaritos->documento); ?>" target="_blank"
-                                    style="background: #023856;color:white;" class="btn btn center pl-4">baixar</a>
+
+                                <div class="row">
+
+
+
+
+                                            <div class="position-relative mb-3 img-news border-top">
+                                                <img class="img-fluid w-100 border"
+                                                    style="height: 250px; width: 100%; object-fit: cover"
+                                                    src="/storage/<?php echo e($gabaritos->capa); ?>">
+
+
+                                                    <span class="mb-3 text-uppercase font-weight-bold"
+                                                        ><?php echo e($gabaritos->titulo); ?></span>
+                                                        <p class="m-0 text-secondary">  <a href="/storage/<?php echo e($gabaritos->documento); ?>" target="_blank"
+                                                            style="background: #023856;color:white;" class="btn btn center pl-4">baixar</a></span>
+                                                    </p>
+
+
+                                            </div>
+
+
+
+                                </div>
 
 
                             </div>

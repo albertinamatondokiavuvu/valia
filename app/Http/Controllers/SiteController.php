@@ -12,7 +12,7 @@ class SiteController extends Controller
    {
     $data['gabaritos']= Gabarito::orderBy('id','DESC')->first();
     $data['cursos'] = Course::orderBy('id','DESC')->get();
-    $data['updates'] = Update::orderBy('id','DESC')->get();
+    $data['updates'] = Update::orderBy('id','DESC')->limit(3)->get();
     return view('site.welcome',$data);
    }
    public function updatesList($id)
