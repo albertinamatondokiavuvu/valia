@@ -42,6 +42,12 @@
             width: 100%;
             height: 5px;
         }
+
+        .titulo2_borda {
+            background-color:dodgerblue;
+            width: 100%;
+            height: 10px;
+        }
     </style>
 
     <style>
@@ -269,9 +275,15 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4 class="title"><a href="">Missão</a></h4>
-                            <p class="description">Promover a qualidade e a equidade na avaliação, fornecimento
-                                testes padronizados... <a href="#" data-bs-toggle="modal" data-bs-target="#missao" style="color: #023856;">Ler mais</a></p>
-
+                            <p class="description">  Promover a qualidade e
+                                a equidade na avaliação,
+                                garantindo aos nossos
+                                parceiros a criação de
+                                valores acrescentados
+                                assegurando um
+                                crescimento sustentado,
+                                construindo o futuro com
+                                responsabilidade.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
@@ -332,8 +344,8 @@
                                         <div class="member-info">
                                             <h4> VALIA.Lic</h4>
                                             <span></span>
-                                            <p>O VALIA.LIc é um serviço especializado em licenciamento ... <a href="#"
-                                                    style="color:#023856;" data-bs-toggle="modal" data-bs-target="#valialinc">Ler mais</a></p>
+                                            <p>O VALIA.LIc é um serviço especializado em licenciamento ... <a href="#" data-bs-toggle="modal" data-bs-target="#lic"
+                                                    style="color:#023856;" >Ler mais</a></p>
 
 
                                         </div>
@@ -346,7 +358,8 @@
                                         <div class="member-info">
                                             <h4>Valia.Estágios</h4>
                                             <span></span>
-                                            <p>Através de nossos parceiros a VALIA.AO oferece a... <a href="#" data-bs-toggle="modal" data-bs-target="#valia.estagios">Ler
+                                            <p>Através de nossos parceiros a VALIA.AO oferece a... <a href="#" data-bs-toggle="modal" data-bs-target="#estagio"
+                                                style="color:#023856;"  >Ler
                                                     mais</a></p>
 
                                         </div>
@@ -359,7 +372,8 @@
                                             <h4>Valia.Max</h4>
                                             <span></span>
                                             <p>Realizar avaliações rigorosas baseadas em pesquisas e
-                                                ... <a href="#" data-bs-toggle="modal" data-bs-target="#valia.max">Ler mais</a>
+                                                ... <a href="#" data-bs-toggle="modal" data-bs-target="#max"
+                                                style="color:#023856;" >Ler mais</a>
 
 
                                             </p>
@@ -380,7 +394,8 @@
                                             <h4> VALIA.Impulso</h4>
                                             <span></span>
                                             <p>É um serviço de parceria com outras empresa, onde incrementamos o ... <a
-                                                href="#" data-bs-toggle="modal" data-bs-target="#valia.impulso">Ler mais</a></p>
+                                                href="#" data-bs-toggle="modal" data-bs-target="#Impulso"
+                                                style="color:#023856;" >Ler mais</a></p>
 
                                         </div>
                                     </div>
@@ -393,7 +408,8 @@
                                             <h4>Valia.Recrutamento</h4>
                                             <span></span>
                                             <p>través do VALIA.Recrumanto e apoiamos as instituições no processo de ... <a
-                                                href="#" data-bs-toggle="modal" data-bs-target="#valia.recrutamento">Ler mais</a></a></p>
+                                                href="#" data-bs-toggle="modal" data-bs-target="#Recrutamento"
+                                                style="color:#023856;">Ler mais</a></a></p>
 
                                         </div>
                                     </div>
@@ -405,7 +421,8 @@
                                             <h4>Valia.Soluções</h4>
                                             <span></span>
                                             <p>Em através dos nos parceiros, e utilizando metodologias apoiadas por ... <a
-                                                href="#" data-bs-toggle="modal" data-bs-target="#valia.solucao">Ler mais</a>
+                                                href="#" data-bs-toggle="modal" data-bs-target="#Solucoes"
+                                                style="color:#023856;" >Ler mais</a>
 
                                             </p>
 
@@ -427,8 +444,8 @@
                                             <p>
                                                 Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
                                                 ás
-                                                ... <a href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#valia.formacao">Ler mais</a>
+                                                ... <a href="#" data-bs-toggle="modal" data-bs-target="#formacao"
+                                                style="color:#023856;" >Ler mais</a>
 
                                             </p>
 
@@ -444,8 +461,8 @@
                                             <p>
                                                 Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
                                                 ás
-                                                ... <a href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#valia.gest">Ler mais</a>
+                                                ... <a href="#" data-bs-toggle="modal" data-bs-target="#gest"
+                                                style="color:#023856;" >Ler mais</a>
 
                                             </p>
 
@@ -461,8 +478,8 @@
                                             <p>
                                                 Deixe que a mais confiável empresa pioneira no segmento de avaliação atenda
                                                 ás
-                                                ... <a href="#" data-bs-toggle="modal"
-                                                    data-bs-target="#valia.consultoria">Ler mais</a>
+                                                ... <a href="#" data-bs-toggle="modal" data-bs-target="#Consultoria"
+                                                style="color:#023856;" >Ler mais</a>
 
                                             </p>
 
